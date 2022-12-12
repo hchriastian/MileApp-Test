@@ -1,0 +1,94 @@
+{
+	"info": {
+		"_postman_id": "cbace321-8ddd-4702-a153-1591d51be6d0",
+		"name": "MileApp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7933203"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/v1/login",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"v1",
+						"login"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Failed Login",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"org_name\": \"testonboard\",\r\n    \"task\": false,\r\n    \"locations\": false,\r\n    \"permissions\": false,\r\n    \"organization_data\": false,\r\n    \"permissions-new\": false,\r\n    \"user\": {\r\n        \"email\": \"handychriastian@gmail.com\",\r\n        \"password\": \"testhandy\",\r\n        \"fcmToken\": \"dIDE4JfqkyE:APA91bHDOMIUTNjvnGb6bqKQTyZEgsKWPWnZMe_8YuYleya9lVot7lJBvPZfyrx7z154zvONJbsZWhmK47kMyHq6DoVf1cX0hc4_bKiRG3Ckyf4_KdhJfLSDl8MKMjA--mdRXimbbEaE\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BASE_URL}}/v1/login",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"v1",
+								"login"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.2.26"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 12 Dec 2022 00:16:34 GMT"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=31536000; includeSubDomains; preload;"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": false,\n    \"message\": \"Login failed, please check your email or password.\"\n}"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,5 @@
+GIVEN   User in login page
+WHEN    User input valid org_name 
+WHEN    User input valid email 
+AND     User input valid password
+THEN    User Sucess login
