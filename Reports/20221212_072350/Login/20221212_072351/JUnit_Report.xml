@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="13.03" tests="1" failures="0" errors="0">
+   <testsuite name="Login" tests="1" failures="0" errors="0" time="13.03" skipped="0" timestamp="2022-12-12 07:23:54" hostname="PC - DESKTOP-SMQKUQU" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\MileApp\\MileApp-Test\\Test Auto\\MileApp-Test\\Reports\\20221212_072350\\Login\\20221212_072351"/>
+         <property name="logFiles" value="D:\\MileApp\\MileApp-Test\\Test Auto\\MileApp-Test\\Reports\\20221212_072350\\Login\\20221212_072351\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="PC - DESKTOP-SMQKUQU"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.2.208"/>
+         <property name="browser" value="Chrome 108.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.14"/>
+         <property name="sessionId" value="fec5e43334b51a4988d42f37b8020207"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Login" time="12.78" classname="Test Cases/Login/Login" status="PASSED">
+         <system-out><![CDATA[2022-12-12 07:23:54 - [TEST_CASE][PASSED] - Test Cases/Login/Login: Test Cases/Login/Login
+
+2022-12-12 07:23:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-12 07:23:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-12 07:23:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-12 07:23:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-12 07:23:56 - [TEST_STEP][PASSED] - navigateToUrl("https://taskdev.mile.app/login"): Navigate to 'https://taskdev.mile.app/login' successfully
+
+2022-12-12 07:24:01 - [MESSAGE][PASSED] - Navigate to 'https://taskdev.mile.app/login' successfully
+
+2022-12-12 07:24:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-12 07:24:01 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-12 07:24:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mile.app  Login/input_Organization Name_organization"), "testonboard"): Text 'testonboard' is set on object 'Object Repository/Page_Mile.app  Login/input_Organization Name_organization'
+
+2022-12-12 07:24:02 - [MESSAGE][PASSED] - Text 'testonboard' is set on object 'Object Repository/Page_Mile.app  Login/input_Organization Name_organization'
+
+2022-12-12 07:24:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mile.app  Login/input_Email or Username_email or username")): Object: 'Object Repository/Page_Mile.app  Login/input_Email or Username_email or username' is clicked on
+
+2022-12-12 07:24:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mile.app  Login/input_Email or Username_email or username' is clicked on
+
+2022-12-12 07:24:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mile.app  Login/input_Email or Username_email or username"), "handychriastian@gmail.com"): Text 'handychriastian@gmail.com' is set on object 'Object Repository/Page_Mile.app  Login/input_Email or Username_email or username'
+
+2022-12-12 07:24:05 - [MESSAGE][PASSED] - Text 'handychriastian@gmail.com' is set on object 'Object Repository/Page_Mile.app  Login/input_Email or Username_email or username'
+
+2022-12-12 07:24:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Mile.app  Login/input_Password_password"), "GbQbK8CgepVr7ZE7VBejJQ=="): Text ****** has been set on object 'Object Repository/Page_Mile.app  Login/input_Password_password'
+
+2022-12-12 07:24:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mile.app  Login/input_Password_password'
+
+2022-12-12 07:24:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mile.app  Login/button_Login")): Object: 'Object Repository/Page_Mile.app  Login/button_Login' is clicked on
+
+2022-12-12 07:24:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mile.app  Login/button_Login' is clicked on
+
+2022-12-12 07:24:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-12 07:24:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-12 07:23:54 - [TEST_SUITE][PASSED] - Login: Test Cases/Login/Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

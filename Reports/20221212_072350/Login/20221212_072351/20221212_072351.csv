@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 108.0.0.0,,,2022-12-12 07:23:54,2022-12-12 07:24:07,13.030s,PASSED
+,,,,,,,
+Test Cases/Login/Login,Chrome 108.0.0.0,,,2022-12-12 07:23:54,2022-12-12 07:24:07,12.780s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-12 07:23:54,2022-12-12 07:23:56,2.062s,PASSED
+"navigateToUrl(""https://taskdev.mile.app/login"")",Chrome 108.0.0.0,,,2022-12-12 07:23:56,2022-12-12 07:24:01,4.733s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-12 07:24:01,2022-12-12 07:24:01,0.164s,PASSED
+"setText(findTestObject(""Object Repository/Page_Mile.app  Login/input_Organization Name_organization""), ""testonboard"")",Chrome 108.0.0.0,,,2022-12-12 07:24:01,2022-12-12 07:24:02,0.781s,PASSED
+"click(findTestObject(""Object Repository/Page_Mile.app  Login/input_Email or Username_email or username""))",Chrome 108.0.0.0,,,2022-12-12 07:24:02,2022-12-12 07:24:03,0.399s,PASSED
+"setText(findTestObject(""Object Repository/Page_Mile.app  Login/input_Email or Username_email or username""), ""handychriastian@gmail.com"")",Chrome 108.0.0.0,,,2022-12-12 07:24:03,2022-12-12 07:24:05,2.753s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Mile.app  Login/input_Password_password""), ""GbQbK8CgepVr7ZE7VBejJQ=="")",Chrome 108.0.0.0,,,2022-12-12 07:24:05,2022-12-12 07:24:06,0.443s,PASSED
+"click(findTestObject(""Object Repository/Page_Mile.app  Login/button_Login""))",Chrome 108.0.0.0,,,2022-12-12 07:24:06,2022-12-12 07:24:06,0.474s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-12 07:24:06,2022-12-12 07:24:07,0.640s,PASSED
