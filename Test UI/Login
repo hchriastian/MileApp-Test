@@ -1,5 +1,36 @@
+#Case 1
 GIVEN   User in login page
 WHEN    User input valid org_name 
 WHEN    User input valid email 
 AND     User input valid password
 THEN    User Sucess login
+
+
+#Case 2
+GIVEN   User in login page
+WHEN    User Input invalid org_name 
+THEN    Show error emssage oops :( invalid.mile.app is not available
+
+#Case 3
+GIVEN   User in login page
+WHEN    User input valid org_name 
+WHEN    User input invalid email 
+AND     User input valid password
+THEN    User Failed login
+AND     Show error message "Login failed, please check your email or password."
+
+#Case 4
+GIVEN   User in login page
+WHEN    User input valid org_name 
+WHEN    User input valid email 
+AND     User input invalid password
+THEN    User Failed login
+AND     Show error message "Login failed, please check your email or password."
+
+#Case 5
+GIVEN   User in login page
+WHEN    User input valid org_name 
+WHEN    User input valid email 
+AND     User input password < 6 character
+THEN    User Failed login
+AND     Show error message "The password field must be at least 6 characters"
